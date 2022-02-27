@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+  line-height: 1.5;
+} 
+
+                       /********************* Navigation Bar **********************/
+nav.navi{
+  display: flex;
+  flex-wrap: wrap;
+  height: 80px;
+  width: 100%;
+  background:gray;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 10px;
+  box-shadow: 2px 6px 8px lightslategrey;
+}
+nav.navi ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav.navi ul li{
+  margin: 0 5px;
+}
+nav.navi ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+nav.navi ul li a:hover{
+  color: #111;
+  background: #fff;
+}
+nav.navi .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 4px 8px 16px black;
+}
+nav.navi .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+
+                           /***************** MEDIA QUERY FOR THE NAVIGATION BAR *****************/
+@media (max-width: 1000px){
+  nav.navi{
+    padding: 0 30px 0 20px;
+  }
+}
+@media (max-width: 920px) {
+  nav.navi .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav.navi ul{
+    position: absolute      ;
+    top: 80px;
+    left: -100%;
+    background: gray;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+    z-index: 990;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav.navi ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav.navi ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 15px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  
+  nav.navi ul li a:hover{
+    background: none;
+    color: dodgerblue;
+  }
+}
+/*            ENDING OF NAVIGATION BAR*/
+
+                   /************* SECTION 1 **************/
+div.box{
+    text-align: center;
+    margin: 24px;
+    box-shadow: 0 0 0 4px rgba(0,0,0,.15), 0 2px 3px 0 rgba(0,0,0,.1);
+    padding: 10px;
+}
+.section-1{
+    background: #F0F0F0;
+}
+.latest_news{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 4px 6px black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+                 /******** FOOTER *********/
+footer{
+    background: #F0F0F0;
+    line-height: 2.5;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer ul li a:hover{
+    color:black;
+    transition: .5s;
+}
+footer h4{
+    font-weight: bold;
+    color: black;
+}
+
+         /********SECTION-3 **********/
+.bookbtn{
+    width: 100%;
+    height: 100px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;    
+    border: none;
+    transition: .5s;
+    text-shadow: 2px 4px 6px black;
+    overflow: hidden;
+}
+.bookbtn:hover{
+    background: gray;
+    color: white;
+    border: 2px solid black;
+}
+.cap{
+    text-align: center;
+    text-shadow: 2px 4px 6px red;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.btn-marg button{
+    margin-bottom: 7px;
+}
+.margSpace{
+    margin-right: 10px;
+}
+.popUp{
+    position: fixed;
+    top: 32%;
+    left: 50%;
+    background: white;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    z-index: 99;
+    color: black;
+    transform: translate(-50%,-50%) scale(0);
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.closeBTN{
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.closeBTN:hover{
+    color: red;
+    transition: .5s;
+}
+
+.popUp.active{
+    transform: translate(-50%,-50%) scale(1);
+    transition: .5s;
+}
+@media (max-width: 576px) {
+  .bookbtn {
+    width: 70%;
+    margin-left: 80px;
+  }
+}
+
+       /********** GO TO TOP SECTION **********/
+.gotobtn{
+    position: fixed;
+    width: 43px;
+    height: 44px;
+    bottom: 40px;
+    right: 10px;  
+    border: 2px solid  black;
+    color: white;
+    background: gray;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    opacity: .6;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* .section-1,.section-2,.section-3,.section-4{
+    margin-bottom: 70px;
+} */
+.section-5{
+  background-color:#D3D3D3;
+}
