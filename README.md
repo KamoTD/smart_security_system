@@ -34,3 +34,7 @@ Database
 Alert Notifications
 1. Twilio: Service to send SMS notifications
 2. Email alerts using protocols such as SMTP (Simple Mail Transfer Protocol)
+
+Pictures
+![image](https://user-images.githubusercontent.com/62297877/155889799-cfa3348a-92bd-46ac-9da7-39067a49f580.png)
+
