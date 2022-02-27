@@ -2,7 +2,7 @@
 
 PROJECT TECHNOLOGY
 
-#Hardware:
+Hardware:
 1. Raspberry PI 3B+
 2. PIR Motion Sensor
 3. Raspberry PI Camera Module
@@ -12,16 +12,16 @@ PROJECT TECHNOLOGY
 7. LED’s (Red, Green, Orange)
 
 
-#Software:
-#Web Application
+Software:
+Web Application
 1. HTML5
 2. CSS3
 3. JavaScript
 4. Python
 
-#Database
+Database
 1. Firebase
 
-#Alert Notifications
+Alert Notifications
 1. Twilio: Service to send SMS notifications
 2. Email alerts using protocols such as SMTP (Simple Mail Transfer Protocol)
