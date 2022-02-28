@@ -38,10 +38,12 @@ Alert Notifications
 Pictures
 
 Hardware:
+
 ![image](https://user-images.githubusercontent.com/62297877/155940259-8967b371-5c50-4761-a9c2-aef20f90706b.png)
 ![image](https://user-images.githubusercontent.com/62297877/155940284-37749db0-3947-4305-903c-d617494fcfdb.png)
 
 Software:
+
 ![image](https://user-images.githubusercontent.com/62297877/155940329-41e95d6f-4537-4dde-9639-2095e51a3673.png)
 ![image](https://user-images.githubusercontent.com/62297877/155940341-773d3c79-4e77-4151-9f51-f30b05f71de2.png)
 ![image](https://user-images.githubusercontent.com/62297877/155940355-4985e128-975d-4719-a74f-2428045bb887.png)
