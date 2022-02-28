@@ -35,15 +35,19 @@ Alert Notifications
 1. Twilio: Service to send SMS notifications
 2. Email alerts using protocols such as SMTP (Simple Mail Transfer Protocol)
 
-Pictures
 
-Hardware:
+Sketch:
+
+![Untitled Sketch_bb](https://user-images.githubusercontent.com/62297877/155964992-24d1665c-8165-4cc0-94c4-3e471cc143ed.jpg)
+
+
+Physical Hardware:
 
 ![image](https://user-images.githubusercontent.com/62297877/155940259-8967b371-5c50-4761-a9c2-aef20f90706b.png)
 
 ![image](https://user-images.githubusercontent.com/62297877/155940284-37749db0-3947-4305-903c-d617494fcfdb.png)
 
-Software:
+Software interactions:
 
 ![image](https://user-images.githubusercontent.com/62297877/155940329-41e95d6f-4537-4dde-9639-2095e51a3673.png)
 
